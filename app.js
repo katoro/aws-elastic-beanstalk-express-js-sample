@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res
-) => res.send('SA Launch!'));
+) => res.send('Hello World! AWS!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
