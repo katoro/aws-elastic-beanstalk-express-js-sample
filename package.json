@@ -4,7 +4,8 @@
   "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test" : "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,8 @@
   },
   "license": "MIT-0",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^9.2.2",
+    "unit.js": "^2.1.1"
   }
 }
